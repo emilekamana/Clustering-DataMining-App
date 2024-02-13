@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 st.set_page_config(page_title="News")
 
-st.title('Top headlines in 6 clusters based on descrtiptions')
+st.title('Top headlines in 5 clusters based on descrtiptions')
 
 API_KEY = os.getenv('API_KEY')
 
